@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Resident</title>
+    <meta name="description" content="Resident, space for living.">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="preload" href="fonts/Arial.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Prata-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <script type="module" crossorigin src="js/main.js"></script>
+  <link rel="stylesheet" crossorigin href="/styles/styles.css">
+</head>
+<body class="mine">
+    <header class="mine-header">
+        <h1 class="visually-hidden">Resident, space for living.</h1>
+        <nav class="mine-nav">
+            <a href="#" class="mine-nav__logo logo">Resident</a>
+            <ul class="mine-nav__list nav-list list">
+                <li class="nav-list__item">
+                    <a class="nav-list__link link" href="#">about us</a>
+                </li>
+                <li class="nav-list__item">
+                    <a class="nav-list__link link" href="#">product</a>
+                </li>
+                <li class="nav-list__item">
+                    <a class="nav-list__link link" href="#">call back</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2 class="visually-hidden">About advantages.</h2>
+            <div class="hero__wrapper">
+              <p class="hero__description">Information about residential complexes</p>
+              <p class="hero__text">with us you get:</p>
+              <ul class="hero__list hero-list list">
+                  <li class="hero-list__item">
+                    <div class="hero-list__icon">
+                    </div>
+                    <p class="hero-list__description">Get&nbsp;<span>$10 000</span><br>&nbsp;for&nbsp;home&nbsp;upgrades&nbsp;<br>eco-features.</p>
+                  </li>
+                  <li class="hero-list__item">
+                    <div class="hero-list__icon"></div>
+                    <p class="hero-list__description"><span>30%</span><br>&nbsp;Energy&nbsp;Savings</p>
+                    </li>
+                  <li class="hero-list__item">
+                    <div class="hero-list__icon"></div>
+                    <p class="hero-list__description"><span>17%</span><br>&nbsp;More&nbsp;Green&nbsp;Space</p>
+                  </li>
+                  <li class="hero-list__item">
+                    <a class="hero-list__button button" href="#">Order</a>
+                  </li>
+              </ul>
+              <picture class="hero__image">
+                <source media="(max-width: 768px)" srcset="img/hero-mobile-1x.webp 1x, img/hero-mobile-2x.webp 2x" width="320" height="423">
+                <source media="(max-width: 1200px)" srcset="img/hero-tablet-1x.webp 1x, img/hero-tablet-2x.webp 2x" width="768" height="682">
+                <source media="(max-width: 1920px)" srcset="img/hero-small-desktop-1x.webp 1x, img/hero-small-desktop-2x.webp 2x" width="500" height="661">
+                <img src="img/hero-1x.webp" srcset="img/hero-2x.webp"  width="763" height="1009" alt="View of the residential complex building with a picnic area.">
+            </picture>
+            </div>
+            
+        </section>
+        <section class="advantages">
+          <h2 class="visually-hidden">About advantages.</h2>
+          <picture class="advantages__image">
+            <source media="(max-width: 767px)" srcset="img/advantages-left-1x.webp 1x, img/advantages-left-1x.webp 2x" width="320" height="313">
+            <source media="(max-width: 1200px)" srcset="img/advantages-left-tablet-1x.webp 1x, img/advantages-left-tablet-2x.webp 2x" width="768" height="894">
+            <img src="img/advantages-left-1x.webp" srcset="img/advantages-left-2x.webp"  width="622" height="724" alt="View of the residential complex building with a picnic area.">
+          </picture>
+          <div class="advantages__wrapper">
+            <ul class="advantages__list advantages-list list">
+                <li class="advantages-list__item">
+                  <div class="advantages-list__icon"></div>
+                  <p class="advantages-list__description">Green spaces and trees in residential areas help reduce air pollution by absorbing carbon dioxide and releasing oxygen.</p>
+                </li>
+                <li class="advantages-list__item">
+                  <div class="advantages-list__icon"></div>
+                  <p class="advantages-list__description">Access to parks and greenery promotes relaxation, reduces stress, and improves overall mental health for residents.</p>
+                </li>
+                <li class="advantages-list__item">
+                  <div class="advantages-list__icon"></div>
+                  <p class="advantages-list__description">Strategically placed trees and vegetation provide natural shade, reducing the need for air conditioning and lowering energy costs.</p>
+                </li>
+                <li class="advantages-list__item">
+                  <div class="advantages-list__icon"></div>
+                  <p class="advantages-list__description">Green common areas encourage social interaction, fostering a sense of community and belonging among neighbors.</p>
+                </li>
+            </ul>
+            <a href="#" class="advantages__button button">Order</a>
+          </div>
+          <picture class="advantages__image">
+            <source media="(max-width: 767px)" srcset="img/advantages-right-mobile-1x.webp 1x, img/advantages-right-mobile-2x.webp 2x" width="320" height="393">
+            <source media="(max-width: 1200px)" srcset="img/advantages-right-tablet-1x.webp 1x, img/advantages-right-tablet-2x.webp 2x" width="768" height="944">
+            <img src="img/advantages-right-1x.webp" srcset="img/advantages-right-2x.webp"  width="589" height="724" alt="View of the residential complex building with a picnic area.">
+          </picture>
+        </section>
+        <section class="feedback">
+          <div class="feedback__wrapper">
+            <form class="feedback__form" action="#" method="post">
+                <h2 class="feedback__title">Write to us and we will contact you</h2>
+                <label class="visually-hidden" for="name">Name:</label>
+                <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                required 
+                placeholder="Name" 
+                maxlength="100" 
+                pattern="[A-Za-zА-Яа-яЁё\s]+" 
+                title="Please use only Cyrillic or Latin alphabet.">
+    
+                <label class="visually-hidden" for="email">Email:</label>
+                <input type="email" 
+                id="email" 
+                name="email" 
+                required 
+                placeholder="E-mail" 
+                maxlength="100" 
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" 
+                title="Please enter a valid email address (Latin letters only).">
+
+                <label class="feedback__privacy-policy control">
+                  <input class="control-input" type="checkbox" name="privacy-policy" required>
+                  <span class="control-mark"></span>
+                  I accept&nbsp;<a href="#">Privacy policy</a>
+                </label>
+    
+                <button class="feedback__button button" type="submit">Send</button> 
+            </form>
+          </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+      <ul class="footer__list footer-nav list">
+        <li class="footer-nav__item">
+            <a class="footer-nav__link link" href="#">About us</a>
+        </li>
+        <li class="footer-nav__item">
+            <a class="footer-nav__link link" href="#">Product</a>
+        </li>
+        <li class="footer-nav__item">
+            <a class="footer-nav__link link" href="#">Feedback</a>
+        </li>
+      </ul>
+      <ul class="footer__list footer-social list">
+          <li class="footer-social__item">
+            <a href="#" class="footer-social__logo logo">Resident</a>
+          </li>
+          <li class="footer-social__item">
+              <ul class="footer-social__list social-list list">
+                <li class="social-list__item">
+                  <a class="social-list__link link-instagram" href="#">
+                    <span class="visually-hidden">Instagram</span>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__link link-tiktok" href="#">
+                    <span class="visually-hidden">TikTok</span>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__link link-linkedin" href="#">
+                    <span class="visually-hidden">Linkedin</span>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__link link-facebook" href="#">
+                    <span class="visually-hidden">Facebook</span>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__link link-telegram" href="#">
+                    <span class="visually-hidden">Telegram</span>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__link link-youtube" href="#">
+                    <span class="visually-hidden">Youtube</span>
+                  </a>
+                </li>
+              </ul>
+          </li>
+          <li class="footer-social__item">
+            <a href="#" class="footer-social__button button">order</a>
+          </li>
+      </ul>
+        
+      <div class="footer__copyright">
+          <span>&copy; 2024, Copyright.</span>
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms of Use</a>
+      </div>
+    </footer>
+</body>
+</html>
